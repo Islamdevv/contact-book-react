@@ -1,0 +1,25 @@
+.newContact {
+    margin: 130px 40px;
+    padding: 20px 40px;
+    width: 300px;
+    height: 322px;
+    text-align: center;
+    align-items: center;
+    border-radius: 55px;
+    border: 2px, solid rgb(93, 88, 88);
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+ }
+ .btnAdd{
+    margin-top: 20px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    border-radius: 5px;
+    height: 30px;
+    border: 3px rgb(59, 72, 207) solid;
+ }
+ .btnAdd:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+ }

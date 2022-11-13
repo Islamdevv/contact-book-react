@@ -1,0 +1,77 @@
+.todoList {
+    text-align: center;
+    width: 550px;
+    overflow: scroll;
+    margin-left: 530px;
+    margin-top: -30%;
+    height: 450px;
+    padding: 15px;
+    border-radius: 15px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  }
+
+  .contacts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    border: 3px solid #bdbdbd;
+    width: 500px;
+    margin: 10px;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+    background-color: white;
+  }
+
+  .btndIv button {
+    width: 100px;
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    color: white;
+    text-align: center;
+  }
+
+  .btndIv button:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  
+  .infoDiv {
+    display: block;
+    border-left: 3px solid #74da14;
+    padding-left: 10px;
+    width: 300px;
+    background-color: white;
+  }
+ 
+.btnEdit {
+    margin-top: 20px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    border-radius: 5px;
+    height: 30px;
+    border: 3px rgb(59, 72, 207) solid;
+}
+.btnEdit:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.btnDeleted {
+    margin-top: 20px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    border-radius: 5px;
+    height: 30px;
+    border: 3px rgb(59, 72, 207) solid;
+}
+.btnDeleted:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}

@@ -1,0 +1,7 @@
+body {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(221,37,204,1) 100%);
+    font-family: 'Poppins', sans-serif;
+ }
+
+

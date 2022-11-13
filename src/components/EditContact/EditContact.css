@@ -1,0 +1,41 @@
+.inner-modal {
+    width: 270px;
+    position: absolute;
+    padding: 20px;
+    left: 75%;
+    top: 18%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    border-radius: 55px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  }
+
+  .btnEditSave {
+    width: 80px;
+        margin-top: 20px;
+        background: rgb(131,58,180);
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+        border-radius: 5px;
+        height: 30px;
+        border: 3px rgb(59, 72, 207) solid;
+    }
+  
+   .btnEditSave:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  .btnX {
+     background: rgb(63,94,251);
+     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(44,48,56,1) 44%, rgba(77,119,84,1) 100%);
+     color: aliceblue;
+  }
+
+  .btnX:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
